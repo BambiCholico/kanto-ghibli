@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ghibli</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Bambi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="ghibli.css">
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h1>Tarjetas</h1>
+                <h2 class="subtitle" >Agrega todas las tarjetas con info de ghibli</h2>
+                <button class="button" onclick="ghibliInfo()">Add all</button>
+                <button class="button-clear" onclick="clearAll()">Clear all</button>
+                
+
+                <div class="container-fluid">
+                    <div class="row add-stuff" id="all-cards">
+ 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="ghibli.js"></script>
+</body>
+</html>

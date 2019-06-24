@@ -1,0 +1,83 @@
+.subtitle{
+    color:  #5759e4;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.button{
+    background-color: #fff;
+    border-color: rgb(143, 143, 143);
+    color: #363636;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 4px;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.25em;
+    line-height: 1.5;
+    position: relative;
+    vertical-align: top;
+    margin: 5px;
+}
+
+.button-clear{
+    background-color: #5759e4;
+    color: #fff;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.25em;
+    line-height: 1.5;
+    position: relative;
+    vertical-align: top;
+    margin: 5px;
+}
+
+.mycard{
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+
+    background-color: #fff;
+    box-shadow: #fff;
+    border-color:#5759e4;
+    color:#5759e4;
+    max-width: 100%;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 5px 5px;
+}
+
+.buttonX{
+    justify-self: flex-end;
+    align-self: flex-start;
+    display: inline-block;
+    padding: 1px 6px;
+    width: 30px;
+}
+
+.textForCards{
+    text-align: center;
+    display: inline-block;
+}
+
+.titleMovies{
+    text-align: center;
+}
+
+.titleDesc{
+    text-align: justify;
+}
+
+
+
+
